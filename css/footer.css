@@ -1,0 +1,37 @@
+
+@font-face{
+    src : url(lite.ttf);
+    font-family: lite;
+}
+@font-face{
+    src : url(lato.ttf);
+    font-family: font;
+}
+.gray-dark{
+   background: rgb(34, 34, 36);
+ // background: #2aabd2;
+}
+
+
+.link-text{
+        font-family: lato;
+    font-size: 1.0em;
+    color: #666666!important;
+        -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.link-text-design{
+    font-family: lite;
+    font-size: 14px;
+ //   color: #999999;
+    color: #666666!important;
+    letter-spacing: 2px;
+}
+
+.fot li .link-text:hover{
+    color: #999999 !important
+}
